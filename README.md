@@ -18,13 +18,13 @@ Or install it yourself as:
 
 ## Usage
 
-require "numeric-time"
+	require "numeric-time"
 
-...
+	...
 
-now = Time.now # => 2012-04-03 19:48:55 +0300
+	now = Time.now # => 2012-04-03 19:48:55 +0300
 
-past = now - 2.days # => 2012-04-01 19:48:55 +0300
+	past = now - 2.days # => 2012-04-01 19:48:55 +0300
 
 ## Contributing
 
